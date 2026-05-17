@@ -1,0 +1,39 @@
+extends layout
+
+
+block content 
+
+    style.
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    table
+        tr 
+            th Player Name
+            th Quota
+            th Hole 1
+            th Hole 2
+            th Hole 3
+            th Hole 4
+            th Hole 5
+            th Hole 6
+            th Hole 7
+            th Hole 8
+            th Hole 9
+            th Points
+        tr 
+            td #{score.player_name}
+            td #{score.quota}
+            td #{score.scores[0]}
+            td #{score.scores[1]}
+            td #{score.scores[2]}
+            td #{score.scores[3]}
+            td #{score.scores[4]}
+            td #{score.scores[5]}
+            td #{score.scores[6]}
+            td #{score.scores[7]}
+            td #{score.scores[8]}
+            td #{score.total_points}
+            
