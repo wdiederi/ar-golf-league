@@ -1,0 +1,19 @@
+{
+  "name": "ar-golf-league",
+  "version": "1.0.0",
+  "description": "AR Golf League Score Tracking Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdiederi/ar-golf-league.git"
+  },
+  "author": "wdiederi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdiederi/ar-golf-league/issues"
+  },
+  "homepage": "https://github.com/wdiederi/ar-golf-league#readme"
+}
